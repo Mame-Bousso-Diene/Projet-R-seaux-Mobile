@@ -1,4 +1,4 @@
-# Application de Dimensionnement NG-RAN 5G
+#  Application de Dimensionnement NG-RAN 5G
 
 > Projet réalisé dans le cadre du cours de **Dimensionnement et Planification des Réseaux Mobiles**  
 > **DIEME – LITA / Département Génie Informatique – UCAD**  
@@ -17,6 +17,10 @@ Elle couvre les deux approches classiques du dimensionnement radio :
 - **Dimensionnement capacité** : calcul de la demande totale en débit (DL) des utilisateurs actifs en heure de pointe → capacité offerte par site → nombre de sites nécessaires.
 
 Le **nombre de sites retenu** est le maximum entre les deux approches (couverture et capacité).
+
+>  **Tous les paramètres de l'application sont modifiables directement dans l'interface graphique.**  
+> Les valeurs indiquées ci-dessous sont des **valeurs par défaut** choisies pour le test et la démonstration.  
+> L'utilisateur peut les modifier librement avant de lancer le calcul pour simuler n'importe quel scénario de déploiement 5G.
 
 ---
 
@@ -67,6 +71,8 @@ Ou téléchargez directement le ZIP depuis GitHub en cliquant sur **Code → Dow
 
 ### Étape 1 – Paramètres de couverture (Section 1)
 
+>  Ces valeurs sont modifiables directement dans l'interface. Elles ont été définies par défaut pour un scénario de test représentatif d'un déploiement 5G en zone urbaine dense.
+
 | Paramètre | Valeur par défaut | Description |
 |---|---|---|
 | Fréquence porteuse (GHz) | 3,5 | Bande n78 sub-6 GHz |
@@ -85,6 +91,8 @@ Ou téléchargez directement le ZIP depuis GitHub en cliquant sur **Code → Dow
 | Hauteur UE (m) | 1,5 | Terminal à hauteur d'homme |
 
 ### Étape 2 – Paramètres de capacité (Section 2)
+
+>  Ces valeurs sont également modifiables. Changez-les pour simuler différents scénarios (zone moins dense, taux de pénétration plus élevé, débit cible différent...).
 
 | Paramètre | Valeur par défaut | Description |
 |---|---|---|
